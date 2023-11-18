@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Kareem Mohamed</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script>
+  var count = 0;
+  var visitorCount = document.querySelector(".visitor-count");
+
+  window.addEventListener("load", function() {
+    count++;
+    visitorCount.textContent = count;
+  });
+</script>
+
+<div class="visitor-count">عدد الزوار: <span></span></div>
+<!-- partial -->
+  
+</body>
+</html>
